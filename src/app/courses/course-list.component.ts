@@ -40,7 +40,7 @@ export class CourseListComponent implements OnInit {
         price: 34.99,
         code: 'LCZ-1195',
         duration: 60,
-        rating: 1.2,
+        rating: 3.6,
         releaseDate: 'September, 2, 2021',
         description: ''
       },
@@ -62,7 +62,7 @@ export class CourseListComponent implements OnInit {
         price: 19.99,
         code: 'LPS-0091',
         duration: 20,
-        rating: 1.3,
+        rating: 4.1,
         releaseDate: 'September, 2, 2021',
         description: ''
       }
