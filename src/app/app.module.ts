@@ -1,3 +1,4 @@
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ReplacePipe } from './pipe/replace.pipe';
 import { StarComponent } from './star/star.component';
 import { CourseListComponent } from './courses/course-list.component';
@@ -12,7 +13,8 @@ import { AppComponent } from './app.component';
     AppComponent,
     CourseListComponent,
     StarComponent,
-    ReplacePipe
+    ReplacePipe,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
