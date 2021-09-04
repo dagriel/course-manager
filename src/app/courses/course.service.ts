@@ -28,12 +28,9 @@ export class CourseService {
     }
   }
 
-  /* save(course: Course): void {
-    if(course.id) {
-        const index = COURSES.findIndex((courseInterator: Course) => courseInterator.id === course.id);
-        COURSES[index] = course;
-    }
-  } */
+  deleteById(id: number): Observable<any> {
+    return this.httpClient.delete<any>(`${this.coursesUrl}/${id}`);
+  }
 
 }
 
