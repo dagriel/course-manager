@@ -13,10 +13,10 @@ import { AppPipeModule } from './../shared/pipe/app-pipe.module';
       CourseInfoComponent
     ],
     imports: [
-      AppPipeModule,
-      StarModule,
       CommonModule,
       FormsModule,
+      StarModule,
+      AppPipeModule,
       RouterModule.forChild([
           {
               path: 'courses', component: CourseListComponent
